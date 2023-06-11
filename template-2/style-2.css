@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1080px; 
+    margin-left: auto;
+    margin-right:auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.row::after{
+    content:"" ;
+    display: table;
+clear: both;
+}
+[class *='col-']{
+    float: left;
+    padding-left: 15px;
+    padding-right:15px;
+    position: relative;
+    min-height: 1px;
+   
+  
+   
+}
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%}
+.col-12{width:100%;}
+
+
+@media (max-width:768px){
+    [class *='col-']{
+        width: 100%;
+    }
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+   }
+   nav ul li{
+       list-style: none;
+       display: inline;
+       padding: 15px;
+   
+   }
+   nav ul{
+   padding: 14px;
+   }
+   nav{
+   background: black;
+   }
+   h2{
+       
+       color: rgb(224, 224, 224);
+       padding: 10px;}
+       .banner{
+        background-color: rgb(234, 238, 235);
+        margin-top: 30px;
+        height: 450px;
+       }
+       .banner h1{
+        color: rgb(7, 7, 7);
+       padding-left: 50px;
+       padding-right: 50px;
+       padding-top: 120px;
+        font-size: 50px;
+        text-align: center;
+        
+
+       }
+       .banner p{
+        color: rgb(7, 7, 7);
+        padding-left: 120px;
+        padding-right: 120px;
+      padding-top: 20px;
+        text-align: center;
+        font-size: 25px;
+       
+
+       }
+     .banner a button{
+        background-color: rgb(46, 46, 236);
+        width: 120px;
+        height: 40px;
+        color: aliceblue;
+        border-radius: 10px;
+        border: none;
+        margin-top: 24px;
+        
+    }
+    .banner a{
+        padding-left: 500px;
+        padding-right: 500px;
+
+    }
+    .line{
+        margin-top: 55px;
+        background-color: rgb(232, 236, 235);
+        height: 220px;
+        position: relative;
+    }
+    .icon-4{
+        position: absolute;
+        top: -25px;
+        right: 45%;
+
+    }
+    .icon-4 i{
+        font-size: 50px;
+        background: rgb(41, 53, 228);
+        color: white;
+        border-radius: 5px;
+    }
+    .line h1{
+        text-align: center;
+        padding-top: 70px;
+
+    }
+    .line p{
+        text-align: center;
+        padding-right: 40px;
+        padding-left: 40px;
+        font-size: 20px;
+    }
+    a{
+        text-decoration: none;
+    }
+    
+
+    .footer{
+        background-color: black;
+        height: 80px;
+        width: 100%;
+    }
+    .footer p{
+        text-align: center;
+        color: aliceblue;
+        padding: 30px;
+    
+    }

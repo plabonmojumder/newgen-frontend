@@ -1,0 +1,185 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .hedding p {
+        font-size: 16px;
+        margin: 0px 100px;
+    }
+    .about-item h1 {
+        font-size: 16px;
+       
+    }
+    .about-item p {
+        font-size: 10px;
+    }
+    .consaltancy h1 {
+        
+        font-size: 22px;
+    }
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .hedding h1 {
+        font-size: 30px;
+      
+    }
+    .hedding p {
+        font-size: 15px;
+        margin: 0px 80px;
+    }
+    .feature-hedding h1 {
+        font-size: 24px;
+       
+    }
+    .feature-hedding p {
+        font-size: 14px;
+        padding: 0px 36px;
+        text-align: justify;
+    }
+    .about-item h1 {
+        font-size: 11px;
+       
+    }
+    .about-item p {
+        font-size: 8px;
+    }
+    .consaltancy h1 {
+        font-weight: bold;
+        font-size: 16px;
+    }
+    
+    
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    
+    .hedding h1 {
+        font-size: 23px;
+        
+    }
+    .hedding p {
+        font-size: 14px;
+        margin: 0 47px;
+    }
+    .feature-hedding h1 {
+        font-size: 20px;
+       
+    }
+    .feature-hedding p {
+        font-size: 15px;
+        padding: 0px 36px;
+        text-align: justify;
+    }
+    .about-item h1 {
+        font-size: 11px;
+        
+    }
+    .about-item p {
+        font-size: 9px;
+    }
+    .from-heading h1 {
+       
+        padding: 0 30px;
+    }
+    h1, h2, h3, h4, h5, h6, p {
+        
+        padding: 0 30px;
+    }
+    .from-section label {
+        margin: 0 30px;
+    }
+    .from-section input {
+        width: 470px;
+       
+        margin: 0 30px;
+    }
+    .input-control {
+        width: 470px;
+        margin: 0 30px;
+    }
+    .input-control-2 {
+        width: 470px;
+ 
+        margin: 0 30px;
+    }
+    .btn button {
+        
+        margin: 0 30px;
+    }
+    .consaltancy h1 {
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 575px) {
+    .hedding h1 {
+        font-size: 20px;
+        
+    }
+    .hedding p {
+        font-size: 14px;
+        margin: 0px 47px;
+    }
+    .feature-hedding h1 {
+        font-size: 17px;
+        
+    }
+    .feature-hedding p {
+        font-size: 15px;
+        padding: 0px 36px;
+        text-align: justify;
+    }
+
+    .consaltancy h1 {
+       
+        padding: 0 50px;
+    }
+    
+    
+    .from-heading h1 {
+        
+        padding: 0 50px;
+    }
+    h1, h2, h3, h4, h5, h6, p {
+       
+        padding: 0 50px;
+    }
+    b, strong {
+       
+        padding: 0 50px;
+    }
+    .from-section input {
+        width: 486px;
+     
+        margin: 0 48px;
+    }
+    .input-control {
+        width: 486px;
+       
+        margin: 0 48px;
+    }
+    .input-control-2 {
+        width: 486px;
+       
+        margin: 0 48px;
+    }
+    .btn button {
+       
+        margin-left: 48px;
+    }
+    .footer-img img {
+        width: 8%;
+     
+    }
+
+}
+
