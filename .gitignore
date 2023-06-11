@@ -1,5 +1,4 @@
 # Logs
-test.txt
 logs
 *.log
 npm-debug.log*
@@ -7,10 +6,10 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
-
+.envs 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
-
+check.txt
 # Runtime data
 pids
 *.pid
